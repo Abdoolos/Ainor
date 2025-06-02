@@ -7,8 +7,8 @@ const blogPosts = [
     {
         delay: "0",
         img: "img-2.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "15. januar 2024",
         category: "ai",
         author: "Admin",
         url: "/blog-details",
@@ -17,9 +17,9 @@ const blogPosts = [
     {
         delay: "200",
         img: "img-3.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "automation",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "3. februar 2024",
+        category: "automatisering",
         author: "Admin",
         url: "/blog-details",
         urlAuthor: "#",
@@ -27,9 +27,9 @@ const blogPosts = [
     {
         delay: "400",
         img: "img-4.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "software",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "18. mars 2024",
+        category: "programvare",
         author: "Admin",
         url: "/blog-details",
         urlAuthor: "#",
@@ -37,8 +37,8 @@ const blogPosts = [
     {
         delay: "0",
         img: "img-5.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "5. april 2024",
         category: "ai",
         author: "Admin",
         url: "/blog-details",
@@ -47,9 +47,9 @@ const blogPosts = [
     {
         delay: "200",
         img: "img-6.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "automation",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "22. mai 2024",
+        category: "automatisering",
         author: "Admin",
         url: "/blog-details",
         urlAuthor: "#",
@@ -57,9 +57,9 @@ const blogPosts = [
     {
         delay: "400",
         img: "img-7.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "software",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "8. juni 2024",
+        category: "programvare",
         author: "Admin",
         url: "/blog-details",
         urlAuthor: "#",
@@ -67,8 +67,8 @@ const blogPosts = [
     {
         delay: "0",
         img: "img-8.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "17. juli 2024",
         category: "ai",
         author: "Admin",
         url: "/blog-details",
@@ -77,9 +77,9 @@ const blogPosts = [
     {
         delay: "200",
         img: "img-9.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "automation",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "30. august 2024",
+        category: "automatisering",
         author: "Admin",
         url: "/blog-details",
         urlAuthor: "#",
@@ -87,73 +87,13 @@ const blogPosts = [
     {
         delay: "400",
         img: "img-10.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "software",
+        title: "2024: Forbered deg på det 'store' cyberangrepet",
+        date: "14. september 2024",
+        category: "programvare",
         author: "Admin",
         url: "/blog-details",
         urlAuthor: "#",
-    },
-    {
-        delay: "0",
-        img: "img-11.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "ai",
-        author: "Admin",
-        url: "/blog-details",
-        urlAuthor: "#",
-    },
-    {
-        delay: "200",
-        img: "img-12.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "automation",
-        author: "Admin",
-        url: "/blog-details",
-        urlAuthor: "#",
-    },
-    {
-        delay: "400",
-        img: "img-13.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "software",
-        author: "Admin",
-        url: "/blog-details",
-        urlAuthor: "#",
-    },
-    {
-        delay: "0",
-        img: "img-14.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "ai",
-        author: "Admin",
-        url: "/blog-details",
-        urlAuthor: "#",
-    },
-    {
-        delay: "200",
-        img: "img-15.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "automation",
-        author: "Admin",
-        url: "/blog-details",
-        urlAuthor: "#",
-    },
-    {
-        delay: "400",
-        img: "img-16.png",
-        title: "2025: brace for the 'big one' cyber attack.",
-        date: "December 21, 2025",
-        category: "software",
-        author: "Admin",
-        url: "/blog-details",
-        urlAuthor: "#",
-    },
+    }
 ];
 export default function Section2() {
     useEffect(() => {
@@ -164,7 +104,7 @@ export default function Section2() {
             {/*ai-solutions-blog section 2*/}
             <section className="ai-solutions-blog-section-2 position-relative pb-120">
                 <div className="container">
-                    <h2>Latest News</h2>
+                    <h2>Siste Nyheter</h2>
                     <div className="row g-4 mt-5">
                         {blogPosts.map((post, index) => (
                             <div key={index} className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={post.delay}>
@@ -176,12 +116,12 @@ export default function Section2() {
                                     <div className="card-news-body border p-4 rounded-3 rounded-top-0 border-top-0">
                                         <div className="d-flex card-news-information gap-4">
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="/assets/imgs/template/icons/icon-1.svg" alt="Date Icon" />
+                                                <img src="/assets/imgs/template/icons/icon-1.svg" alt="Dato Ikon" />
                                                 <p className="mb-0">{post.date}</p>
                                             </div>
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="/assets/imgs/template/icons/icon-2.svg" alt="Author Icon" />
-                                                <span className="opacity-50">By</span>
+                                                <img src="/assets/imgs/template/icons/icon-2.svg" alt="Forfatter Ikon" />
+                                                <span className="opacity-50">Av</span>
                                                 <Link href={post.urlAuthor} className="mb-0">
                                                     {post.author}
                                                 </Link>
@@ -198,7 +138,7 @@ export default function Section2() {
                         ))}
                     </div>
                     <Link href="#" className="btn btn-linear hover-up mt-5">
-                        Load more posts <i className="bi bi-arrow-right" />
+                        Last inn flere innlegg <i className="bi bi-arrow-right" />
                     </Link>
                 </div>
             </section>

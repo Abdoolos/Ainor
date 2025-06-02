@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <PageHeader title="About Us" current_page="about us" />
+                <PageHeader title="Om Oss" current_page="om oss" />
                 <Section1 />
                 <Section2 />
                 <Section3 />

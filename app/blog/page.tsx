@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <PageHeader title="News" current_page="News" />
+                <PageHeader title="Nyheter" current_page="Nyheter" />
                 <Section1 />
                 <Section2 />
             </Layout>

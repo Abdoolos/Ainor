@@ -44,12 +44,12 @@ export default function Section2() {
                         <div className="col-lg-7">
                             <div className="d-inline-flex align-items-center gap-3">
                                 <span className="small-line" />
-                                <span className="btn-text text-primary">Our Vision</span>
+                                <span className="btn-text text-primary">Vår Visjon</span>
                             </div>
-                            <h2 className="text-dark my-3 text-anime-style-3 mb-lg-0">Our mission is to fast-track progress in artificial intelligence.</h2>
+                            <h2 className="text-dark my-3 text-anime-style-3 mb-lg-0">Vi er et lidenskapelig team dedikert til digital innovasjon</h2>
                         </div>
                         <div className="col-lg-4 offset-lg-1">
-                            <p className="pb-4 mb-0 wow img-custom-anim-top mb-0">To lead the AI revolution by building smarter, safer, and more inclusive technologies that empower humanity to unlock its full potential.</p>
+                            <p className="pb-4 mb-0 wow img-custom-anim-top mb-0">Vi er et lidenskapelig team dedikert til digital innovasjon, og tror at hver stor idé fortjener å bli en inspirerende online opplevelse. Vår visjon er å være den ideelle teknologipartneren for våre klienter, ved å kombinere vår ekspertise innen webutvikling med intelligente AI-løsninger for å levere eksepsjonell verdi og bærekraftig vekst for hvert prosjekt. Vi er forpliktet til å støtte og forbedre din virksomhet, og tilbyr smarte løsninger som styrker din digitale tilstedeværelse og maksimerer din innflytelse.</p>
                         </div>
                     </div>
                     <div className="row mt-5 g-4">
@@ -61,7 +61,7 @@ export default function Section2() {
                         </div>
                     </div>
                     <div className="mt-80 text-center">
-                        <h6 className="text-anime-style-3">Worked with 100+ clients around the world</h6>
+                        <h6 className="text-anime-style-3">Jobbet med over 100+ klienter verden rundt</h6>
                     </div>
                 </div>
                 <CarouselTicker slides={slidesContent} />

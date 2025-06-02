@@ -15,14 +15,14 @@ export default function Section2() {
                         <div className="col-lg-7">
                             <div className="d-flex align-items-center gap-3">
                                 <span className="small-line" />
-                                <span className="btn-text">Our amazing skills</span>
+                                <span className="btn-text">Våre fantastiske ferdigheter</span>
                             </div>
-                            <h2 className=" my-3 text-anime-style-3">Transform Your Business with AI-Driven Intelligence</h2>
-                            <p className="mb-0 text-anime-style-1">Build Smarter, Scale Faster, and Outperform Competitors with Custom Machine Learning Solutions. Harness the power of AI-driven insights to future-proof your operations, reduce costs, and unlock new revenue streams.</p>
+                            <h2 className=" my-3 text-anime-style-3">Transformer virksomheten din med AI-drevet intelligens</h2>
+                            <p className="mb-0 text-anime-style-1">Bygg smartere, skaler raskere og overgå konkurrenter med tilpassede maskinlæringsløsninger. Utnytt kraften i AI-drevne innsikter for å fremtidssikre driften, redusere kostnader og låse opp nye inntektsstrømmer.</p>
                         </div>
                         <div className="col-lg-4 ms-lg-auto text-lg-end">
                             <Link href="/services" className="btn btn-dark mt-3 hover-up">
-                                <span>Discover More</span>
+                                <span>Oppdag mer</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
                                     <g clipPath="url(#clip0_914_180)">
                                         <path d="M15.8167 7.55759C15.8165 7.5574 15.8163 7.55719 15.8161 7.557L12.5504 4.307C12.3057 4.06353 11.91 4.06444 11.6665 4.30912C11.423 4.55378 11.4239 4.9495 11.6686 5.193L13.8612 7.375H0.625C0.279813 7.375 0 7.65481 0 8C0 8.34519 0.279813 8.625 0.625 8.625H13.8612L11.6686 10.807C11.4239 11.0505 11.423 11.4462 11.6665 11.6909C11.91 11.9356 12.3058 11.9364 12.5504 11.693L15.8162 8.443C15.8163 8.44281 15.8165 8.44259 15.8167 8.4424C16.0615 8.19809 16.0607 7.80109 15.8167 7.55759Z" fill="white" />
@@ -35,24 +35,24 @@ export default function Section2() {
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center gap-3 mb-5">
                                 <img src="assets/imgs/pages/ai-solutions/icons/icon-key.svg" alt="AstraX" />
-                                <h5 className="mb-0">Key Values</h5>
+                                <h5 className="mb-0">Nøkkelverdier</h5>
                             </div>
                             <div className="bg-white py-2 mb-3" data-aos="fade-left" data-aos-delay={0}>
                                 <div className="px-3 border-start border-primary border-5">
-                                    <h6 className="text-dark mt-3 mb-2 text-anime-style-2">Predict the Future</h6>
-                                    <p className="wow img-custom-anim-top">Turn your data into actionable forecasts with 95% accuracy. From predicting customer behavior to anticipating market trends, our machine learning models empower you to make smarter, data-driven decisions that keep you ahead of the curve.</p>
+                                    <h6 className="text-dark mt-3 mb-2 text-anime-style-2">Forutsi fremtiden</h6>
+                                    <p className="wow img-custom-anim-top">Gjør om dataene dine til handlingsdyktige prognoser med 95% nøyaktighet. Fra å forutsi kundeadferd til å forutse markedstrender, våre maskinlæringsmodeller gir deg mulighet til å ta smartere, datadrevne beslutninger som holder deg foran kurven.</p>
                                 </div>
                             </div>
                             <div className="bg-white py-2 mb-3" data-aos="fade-left" data-aos-delay={200}>
                                 <div className="px-3 border-start border-primary border-5">
-                                    <h6 className="text-dark mt-3 mb-2 text-anime-style-2">Automate Everything</h6>
-                                    <p className="wow img-custom-anim-top">Cut operational costs by up to 40% with intelligent, AI-powered workflows. Automate repetitive tasks, streamline processes, and free up your team to focus on what truly matters—innovation and growth.</p>
+                                    <h6 className="text-dark mt-3 mb-2 text-anime-style-2">Automatiser alt</h6>
+                                    <p className="wow img-custom-anim-top">Reduser driftskostnader med opptil 40% med intelligente, AI-drevne arbeidsflyter. Automatiser repetitive oppgaver, effektiviser prosesser og frigjør teamet ditt til å fokusere på det som virkelig betyr noe—innovasjon og vekst.</p>
                                 </div>
                             </div>
                             <div className="bg-white py-2 mb-3" data-aos="fade-left" data-aos-delay={400}>
                                 <div className="px-3 border-start border-primary border-5">
-                                    <h6 className="text-dark mt-3 mb-2 text-anime-style-2">Stay Ahead:</h6>
-                                    <p className="wow img-custom-anim-top">Deploy enterprise-grade AI solutions in weeks, not months. Our agile development process and pre-built frameworks ensure rapid implementation, so you can start seeing results faster than ever before.</p>
+                                    <h6 className="text-dark mt-3 mb-2 text-anime-style-2">Vær i forkant:</h6>
+                                    <p className="wow img-custom-anim-top">Implementer AI-løsninger på bedriftsnivå på uker, ikke måneder. Vår smidige utviklingsprosess og ferdigbygde rammeverk sikrer rask implementering, slik at du kan begynne å se resultater raskere enn noensinne.</p>
                                 </div>
                             </div>
                         </div>

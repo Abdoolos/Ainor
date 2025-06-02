@@ -60,30 +60,30 @@ export default function Section1() {
                                 <div className="row align-items-center g-lg-5 g-4">
                                     <div className="col-lg-6 wow img-custom-anim-left">
                                         <Link href="/blog-details" className="position-relative d-inline-block">
-                                            <img className="rounded-4" src="assets/imgs/pages/ai-solutions/page-blog/img-1.png" alt="AstraX" />
+                                            <img className="rounded-4" src="assets/imgs/pages/ai-solutions/page-blog/img-1.png" alt="Ainorab" />
                                         </Link>
                                     </div>
                                     <div className="col-lg-6 col-md-12 wow img-custom-anim-top">
-                                        <span className="text-uppercase text-white rounded-3 fw-semibold bg-linear-1 fs-7 px-2 py-1">automation</span>
+                                        <span className="text-uppercase text-white rounded-3 fw-semibold bg-linear-1 fs-7 px-2 py-1">automatisering</span>
                                         <Link href="/blog-details">
-                                            <h2 className="text-dark mt-3">Top 10 AI Trends Shaping 2025: What Businesses Need to Know</h2>
+                                            <h2 className="text-dark mt-3">Topp 10 AI-trender som former 2024: Hva bedrifter må vite</h2>
                                         </Link>
                                         <div className="d-flex card-news-information mt-3 gap-4">
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="assets/imgs/template/icons/icon-1.svg" alt="AstraX" />
-                                                <p className="mb-0">December 21, 2025</p>
+                                                <img src="assets/imgs/template/icons/icon-1.svg" alt="Ainorab" />
+                                                <p className="mb-0">15. januar 2024</p>
                                             </div>
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="assets/imgs/template/icons/icon-2.svg" alt="AstraX" />
-                                                <span className="opacity-50">By</span>
+                                                <img src="assets/imgs/template/icons/icon-2.svg" alt="Ainorab" />
+                                                <span className="opacity-50">Av</span>
                                                 <Link href="#" className="mb-0">
                                                     Admin
                                                 </Link>
                                             </div>
                                         </div>
-                                        <p className="mt-5">Our solutions are crafted to simplify business processes, strengthen security, and deliver scalable infrastructure to foster growth. Whether you're aiming to optimize operations or ensure seamless scalability, we’ve got you covered.</p>
+                                        <p className="mt-5">Våre løsninger er utviklet for å forenkle forretningsprosesser, styrke sikkerheten og levere skalerbar infrastruktur for å fremme vekst. Enten du ønsker å optimalisere driften eller sikre sømløs skalerbarhet, har vi det du trenger.</p>
                                         <Link href="/blog-details" className="btn btn-outline-secondary mt-5">
-                                            Read More
+                                            Les mer
                                             <i className="fas fa-arrow-right" />
                                         </Link>
                                     </div>
@@ -93,30 +93,30 @@ export default function Section1() {
                                 <div className="row align-items-center g-lg-5 g-4">
                                     <div className="col-lg-6 wow img-custom-anim-left">
                                         <Link href="/blog-details" className="position-relative d-inline-block">
-                                            <img className="rounded-4" src="assets/imgs/pages/ai-solutions/page-blog/img-1.png" alt="AstraX" />
+                                            <img className="rounded-4" src="assets/imgs/pages/ai-solutions/page-blog/img-1.png" alt="Ainorab" />
                                         </Link>
                                     </div>
                                     <div className="col-lg-6 col-md-12 wow img-custom-anim-top">
-                                        <span className="text-uppercase text-white rounded-3 fw-semibold bg-linear-1 fs-7 px-2 py-1">automation</span>
+                                        <span className="text-uppercase text-white rounded-3 fw-semibold bg-linear-1 fs-7 px-2 py-1">automatisering</span>
                                         <Link href="/blog-details">
-                                            <h2 className="text-dark mt-3">Top 10 AI Trends Shaping 2025: What Businesses Need to Know</h2>
+                                            <h2 className="text-dark mt-3">Topp 10 AI-trender som former 2024: Hva bedrifter må vite</h2>
                                         </Link>
                                         <div className="d-flex card-news-information mt-3 gap-4">
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="assets/imgs/template/icons/icon-1.svg" alt="AstraX" />
-                                                <p className="mb-0">December 21, 2025</p>
+                                                <img src="assets/imgs/template/icons/icon-1.svg" alt="Ainorab" />
+                                                <p className="mb-0">3. februar 2024</p>
                                             </div>
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="assets/imgs/template/icons/icon-2.svg" alt="AstraX" />
-                                                <span className="opacity-50">By</span>
+                                                <img src="assets/imgs/template/icons/icon-2.svg" alt="Ainorab" />
+                                                <span className="opacity-50">Av</span>
                                                 <Link href="#" className="mb-0">
                                                     Admin
                                                 </Link>
                                             </div>
                                         </div>
-                                        <p className="mt-5">Our solutions are crafted to simplify business processes, strengthen security, and deliver scalable infrastructure to foster growth. Whether you're aiming to optimize operations or ensure seamless scalability, we’ve got you covered.</p>
+                                        <p className="mt-5">Våre løsninger er utviklet for å forenkle forretningsprosesser, styrke sikkerheten og levere skalerbar infrastruktur for å fremme vekst. Enten du ønsker å optimalisere driften eller sikre sømløs skalerbarhet, har vi det du trenger.</p>
                                         <Link href="/blog-details" className="btn btn-outline-secondary mt-5">
-                                            Read More
+                                            Les mer
                                             <i className="fas fa-arrow-right" />
                                         </Link>
                                     </div>
@@ -126,30 +126,30 @@ export default function Section1() {
                                 <div className="row align-items-center g-lg-5 g-4">
                                     <div className="col-lg-6 wow img-custom-anim-left">
                                         <Link href="/blog-details" className="position-relative d-inline-block">
-                                            <img className="rounded-4" src="assets/imgs/pages/ai-solutions/page-blog/img-1.png" alt="AstraX" />
+                                            <img className="rounded-4" src="assets/imgs/pages/ai-solutions/page-blog/img-1.png" alt="Ainorab" />
                                         </Link>
                                     </div>
                                     <div className="col-lg-6 col-md-12 wow img-custom-anim-top">
-                                        <span className="text-uppercase text-white rounded-3 fw-semibold bg-linear-1 fs-7 px-2 py-1">automation</span>
+                                        <span className="text-uppercase text-white rounded-3 fw-semibold bg-linear-1 fs-7 px-2 py-1">automatisering</span>
                                         <Link href="/blog-details">
-                                            <h2 className="text-dark mt-3">Top 10 AI Trends Shaping 2025: What Businesses Need to Know</h2>
+                                            <h2 className="text-dark mt-3">Topp 10 AI-trender som former 2024: Hva bedrifter må vite</h2>
                                         </Link>
                                         <div className="d-flex card-news-information mt-3 gap-4">
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="assets/imgs/template/icons/icon-1.svg" alt="AstraX" />
-                                                <p className="mb-0">December 21, 2025</p>
+                                                <img src="assets/imgs/template/icons/icon-1.svg" alt="Ainorab" />
+                                                <p className="mb-0">18. mars 2024</p>
                                             </div>
                                             <div className="d-flex align-items-center gap-1">
-                                                <img src="assets/imgs/template/icons/icon-2.svg" alt="AstraX" />
-                                                <span className="opacity-50">By</span>
+                                                <img src="assets/imgs/template/icons/icon-2.svg" alt="Ainorab" />
+                                                <span className="opacity-50">Av</span>
                                                 <Link href="#" className="mb-0">
                                                     Admin
                                                 </Link>
                                             </div>
                                         </div>
-                                        <p className="mt-5">Our solutions are crafted to simplify business processes, strengthen security, and deliver scalable infrastructure to foster growth. Whether you're aiming to optimize operations or ensure seamless scalability, we’ve got you covered.</p>
+                                        <p className="mt-5">Våre løsninger er utviklet for å forenkle forretningsprosesser, styrke sikkerheten og levere skalerbar infrastruktur for å fremme vekst. Enten du ønsker å optimalisere driften eller sikre sømløs skalerbarhet, har vi det du trenger.</p>
                                         <Link href="/blog-details" className="btn btn-outline-secondary mt-5">
-                                            Read More
+                                            Les mer
                                             <i className="fas fa-arrow-right" />
                                         </Link>
                                     </div>

@@ -8,10 +8,10 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <PageHeader title="Machine Learning Services" current_page="Service Details" />
+                <PageHeader title="Maskinlæringstjenester" current_page="Tjeneste Detaljer" />
                 <Section1D />
                 <Section2 />
-                <Section1 title="You may also be interested in" display="d-none" ds_btn="d-block" />
+                <Section1 title="Du kan også være interessert i" display="d-none" ds_btn="d-block" />
                 <Section9 bordertop="border-top" />
             </Layout>
         </>
