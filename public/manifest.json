@@ -1,0 +1,20 @@
+{
+  "name": "AINORAB",
+  "short_name": "AINORAB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/assets/imgs/template/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/imgs/template/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

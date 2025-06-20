@@ -79,10 +79,10 @@ export default function Section8() {
                                             <div className="d-flex gap-2">
                                                 {[1,2,3,4,5].map(i => <i key={i} className="bi bi-star-fill text-primary" />)}
                                             </div>
-                                            <h6 className="mb-0 mt-4 fw-medium">"AstraX har revolusjonert måten vi håndterer kundedata på. Deres AI-løsninger har økt vår effektivitet med over 40% det siste året."</h6>
+                                            <h6 className="mb-0 mt-4 fw-medium">"Ainorab har revolusjonert måten vi håndterer kundedata på. Deres AI-løsninger har økt vår effektivitet med over 40% det siste året."</h6>
                                             <div className="d-flex align-items-center mt-5">
                                                 <Link href="#">
-                                                    <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-1.png" alt="AstraX" />
+                                                    <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-1.png" alt="Ainorab" />
                                                 </Link>
                                                 <div className="text-start ms-3">
                                                     <Link href="#">
@@ -98,10 +98,10 @@ export default function Section8() {
                                             <div className="d-flex gap-2">
                                                 {[1,2,3,4,5].map(i => <i key={i} className="bi bi-star-fill text-primary" />)}
                                             </div>
-                                            <h6 className="mb-0 mt-4 fw-medium">"Vi har sett en betydelig forbedring i vår digitale tilstedeværelse siden vi begynte å samarbeide med AstraX. Deres kreative løsninger er eksepsjonelle."</h6>
+                                            <h6 className="mb-0 mt-4 fw-medium">"Vi har sett en betydelig forbedring i vår digitale tilstedeværelse siden vi begynte å samarbeide med Ainorab. Deres kreative løsninger er eksepsjonelle."</h6>
                                             <div className="d-flex align-items-center mt-5">
                                                 <Link href="#">
-                                                    <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-2.png" alt="AstraX" />
+                                                    <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-2.png" alt="Ainorab" />
                                                 </Link>
                                                 <div className="text-start ms-3">
                                                     <Link href="#">
@@ -117,10 +117,10 @@ export default function Section8() {
                                             <div className="d-flex gap-2">
                                                 {[1,2,3,4,5].map(i => <i key={i} className="bi bi-star-fill text-primary" />)}
                                             </div>
-                                            <h6 className="mb-0 mt-4 fw-medium">"Den personlige oppfølgingen og skreddersydde løsningene fra AstraX har vært avgjørende for vår suksess i det digitale markedet."</h6>
+                                            <h6 className="mb-0 mt-4 fw-medium">"Den personlige oppfølgingen og skreddersydde løsningene fra Ainorab har vært avgjørende for vår suksess i det digitale markedet."</h6>
                                             <div className="d-flex align-items-center mt-5">
                                                 <Link href="#">
-                                                    <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-3.png" alt="AstraX" />
+                                                    <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-3.png" alt="Ainorab" />
                                                 </Link>
                                                 <div className="text-start ms-3">
                                                     <Link href="#">

@@ -12,7 +12,7 @@ export default function Section1({ title, display, ds_btn }: any) {
                                 <span className="small-line" />
                                 <span className="btn-text text-primary">Våre tjenester</span>
                             </div>
-                            <h2 className="text-dark my-3 text-anime-style-3">{title}</h2>
+                            <h2 className="text-dark my-3 text-anime-style-3">Fra visjon til virkelighet: Kunstig intelligens som driver din digitale transformasjon til nye høyder</h2>
                         </div>
                         <div className={`col-lg-4 ms-lg-auto text-lg-end ${display}`}>
                             <Link href="#" className="btn btn-dark mt-3 hover-up">
@@ -28,43 +28,43 @@ export default function Section1({ title, display, ds_btn }: any) {
                     <div className="row align-items-center g-4">
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={0}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="AstraX" />
-                                <Link href="/services-details">
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="Ainorab" />
+                                <Link href="/ai-radgivning">
                                     <h6 className="mt-4 mb-3">AI-rådgivning</h6>
                                 </Link>
                                 <p className="mb-4">Vi samarbeider tett med deg for å forstå dine utfordringer og utvikle en plan for å utnytte AI til å drive innovasjon, forbedre effektiviteten og få konkurransefortrinn i din bransje.</p>
-                                <Link href="/services-details" className="text-decoration-underline text-uppercase fs-7 fw-semibold">
+                                <Link href="/ai-radgivning" className="text-decoration-underline text-uppercase fs-7 fw-semibold">
                                     Les mer
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={200}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-2.svg" alt="AstraX" />
-                                <Link href="/services-details">
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-2.svg" alt="Ainorab" />
+                                <Link href="/dataanalyse">
                                     <h6 className="mt-4 mb-3">Dataanalyse</h6>
                                 </Link>
                                 <p className="mb-4">Våre dataanalyseløsninger hjelper bedrifter med å avdekke skjulte mønstre, optimalisere drift og ta datadrevne beslutninger som forbedrer ytelsen og fremmer vekst.</p>
-                                <Link href="/services-details" className="text-decoration-underline text-uppercase fs-7 fw-semibold">
+                                <Link href="/dataanalyse" className="text-decoration-underline text-uppercase fs-7 fw-semibold">
                                     Les mer
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={400}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="AstraX" />
-                                <Link href="/services-details">
-                                    <h6 className="mt-4 mb-3">Maskinlæring</h6>
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="Ainorab" />
+                                <Link href="/ai-agents">
+                                    <h6 className="mt-4 mb-3">AI Agents</h6>
                                 </Link>
-                                <p className="mb-4">Ved å bygge og implementere tilpassede modeller, hjelper vi organisasjoner med å utnytte det fulle potensialet i deres data, forbedre nøyaktighet og effektivisere driften.</p>
-                                <Link href="/services-details" className="text-decoration-underline text-uppercase fs-7 fw-semibold">
+                                <p className="mb-4">Intelligente AI-agenter som automatiserer komplekse oppgaver, forbedrer kundeservice og optimaliserer forretningsprosesser på tvers av alle bransjer og bruksområder.</p>
+                                <Link href="/ai-agents" className="text-decoration-underline text-uppercase fs-7 fw-semibold">
                                     Les mer
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={600}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="AstraX" />
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="Ainorab" />
                                 <Link href="/services-details">
                                     <h6 className="mt-4 mb-3">Naturlig Språkbehandling</h6>
                                 </Link>
@@ -76,7 +76,7 @@ export default function Section1({ title, display, ds_btn }: any) {
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={800}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="AstraX" />
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="Ainorab" />
                                 <Link href="/services-details">
                                     <h6 className="mt-4 mb-3">Prosessautomatisering</h6>
                                 </Link>
@@ -88,7 +88,7 @@ export default function Section1({ title, display, ds_btn }: any) {
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={1000}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="AstraX" />
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="Ainorab" />
                                 <Link href="/services-details">
                                     <h6 className="mt-4 mb-3">Brukergrensesnittdesign</h6>
                                 </Link>
@@ -100,7 +100,7 @@ export default function Section1({ title, display, ds_btn }: any) {
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={1200}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-2.svg" alt="AstraX" />
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-2.svg" alt="Ainorab" />
                                 <Link href="/services-details">
                                     <h6 className="mt-4 mb-3">Brukeropplevelsesdesign</h6>
                                 </Link>
@@ -112,7 +112,7 @@ export default function Section1({ title, display, ds_btn }: any) {
                         </div>
                         <div className="col-lg-4 col-md-6 align-self-stretch" data-aos="fade-up" data-aos-delay={1400}>
                             <div className="p-5 bg-secondary-2 card-services hover-up h-100">
-                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="AstraX" />
+                                <img src="assets/imgs/pages/ai-solutions/icons/icon-1.svg" alt="Ainorab" />
                                 <Link href="/services-details">
                                     <h6 className="mt-4 mb-3">Robotløsninger</h6>
                                 </Link>

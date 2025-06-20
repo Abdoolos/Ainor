@@ -229,4 +229,18 @@
 .ai-solutions-blog-section-1 .swiper-button-prev {
   left: unset;
 }
+
+/* Hide Next.js Dev Indicator */
+svg[data-next-mark-loading],
+svg[viewBox="0 0 40 40"][width="40"][height="40"] {
+  display: none !important;
+}
+
+/* Hide any Next.js development tools */
+[data-nextjs-toast-errors],
+[data-nextjs-toast-errors-parent],
+nextjs-portal {
+  display: none !important;
+}
+
 /*# sourceMappingURL=style.css.map */

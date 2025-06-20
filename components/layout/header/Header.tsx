@@ -8,20 +8,15 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu }: any) 
             <header>
                 <nav className={`navbar navbar-expand-lg navbar-dark z-5 ${scroll ? "navbar-stick top-0 position-fixed" : ""}`}>
                     <div className="container mt-3 mb-3">
-                        <Link className="navbar-brand" href="/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 40 40" fill="none">
-                                <defs>
-                                    <linearGradient id="paint0_linear" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#23EFEF" />
-                                        <stop offset="0.5" stopColor="#2DA0FF" />
-                                        <stop offset="1" stopColor="#B172FE" />
-                                    </linearGradient>
-                                </defs>
-                                <path d="M20 2C10.059 2 2 10.059 2 20s8.059 18 18 18 18-8.059 18-18S29.941 2 20 2zm0 4c7.732 0 14 6.268 14 14s-6.268 14-14 14S6 27.732 6 20 12.268 6 20 6z" fill="url(#paint0_linear)"/>
-                                <path d="M20 10c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 4c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6z" fill="url(#paint0_linear)"/>
-                                <path d="M20 16c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 2c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2z" fill="url(#paint0_linear)"/>
-                                <path d="M24 12l4-2M12 24l-2 4M28 28l2-2M10 10L8 8" stroke="url(#paint0_linear)" strokeWidth="1.5"/>
-                            </svg>
+                        <Link className="navbar-brand d-flex align-items-center gap-2" href="/">
+                            <img 
+                                src="/assets/imgs/template/favicon.png" 
+                                alt="AINorAb Logo" 
+                                width={40} 
+                                height={40} 
+                                className="rounded"
+                                style={{objectFit: 'contain'}}
+                            />
                             <h5 className="mb-0 text-white">AINorAb</h5>
                         </Link>
                         <div className="d-none d-lg-flex">
@@ -52,19 +47,14 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu }: any) 
                     </div>
                     <div className="offCanvas__logo mb-30">
                         <Link className="d-flex align-items-center gap-2" href="/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 40 40" fill="none">
-                                <defs>
-                                    <linearGradient id="paint1_linear" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#23EFEF" />
-                                        <stop offset="0.5" stopColor="#2DA0FF" />
-                                        <stop offset="1" stopColor="#B172FE" />
-                                    </linearGradient>
-                                </defs>
-                                <path d="M20 2C10.059 2 2 10.059 2 20s8.059 18 18 18 18-8.059 18-18S29.941 2 20 2zm0 4c7.732 0 14 6.268 14 14s-6.268 14-14 14S6 27.732 6 20 12.268 6 20 6z" className="fill-green-3"/>
-                                <path d="M20 10c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 4c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6z" className="fill-green-3"/>
-                                <path d="M20 16c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 2c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2z" className="fill-green-3"/>
-                                <path d="M24 12l4-2M12 24l-2 4M28 28l2-2M10 10L8 8" className="fill-green-3" strokeWidth="1.5"/>
-                            </svg>
+                            <img 
+                                src="/assets/imgs/template/favicon.png" 
+                                alt="AINorAb Logo" 
+                                width={40} 
+                                height={40} 
+                                className="rounded"
+                                style={{objectFit: 'contain'}}
+                            />
                             <h5 className="mb-0 text-dark">AINorAb</h5>
                         </Link>
                     </div>

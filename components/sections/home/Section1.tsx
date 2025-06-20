@@ -1,87 +1,698 @@
+"use client";
 import Link from "next/link";
+import RotatingLogo from "@/components/elements/RotatingLogo";
 
 export default function Section1() {
     return (
         <>
-            {/*ai-solutions home section 1*/}
-            <section className="ai-solutions-home-section-1 position-relative overflow-hidden pt-150 pb-200">
-                <div className="position-absolute top-50 start-50 translate-middle">
-                    <img className="ribbonRotate" src="assets/imgs/pages/ai-solutions/page-home/home-section-1/wave-circle-img.png" alt="AstraX" />
-                </div>
-                <div className="container position-relative z-1">
+            {/* Modern AI Hero Section */}
+            <section className="modern-ai-hero position-relative overflow-hidden pt-120 pb-120">
+                <div className="container position-relative z-2">
                     <div className="row align-items-center">
-                        <div className="col-10 mx-auto">
-                            <h1 className="text-white fs-90 mb-0 text-anime-style-2">Frigjør KI-kraften</h1>
-                            <h1 className="text-white fs-90 mb-0 text-lg-end text-anime-style-1">Skap Morgendagen</h1>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-6 mx-auto mt-5">
-                            <form className="input-group mb-3 mt-4 position-relative" data-aos="zoom-in" data-aos-delay={100}>
-                                <input type="text" className="py-3 form-control generate rounded-start-4 border-end-0 border-primary" name="name" placeholder="Skriv noe" />
-                                <div className="border border-start-0 border-primary rounded-end-4 bg-white">
-                                    <button className="btn btn-linear m-2 fs-7 fw-bold" type="submit" aria-label="generate" data-aos="fade-zoom-in" data-aos-delay={100}>
-                                        Generer
-                                    </button>
+                        <div className="col-lg-6">
+                            <div className="hero-content">
+                                <div className="d-flex align-items-center gap-3 mb-4">
+                                    <span className="hero-badge">
+                                        <i className="bi bi-robot me-2"></i>
+                                        Fremtidens AI-teknologi
+                                    </span>
                                 </div>
-                            </form>
+                                <h1 className="hero-title mb-4">
+                                    Revolusjonerer forretninger med{" "}
+                                    <span className="text-gradient d-inline-flex align-items-center">
+                                        intelligent AI
+                                        {/* <RotatingLogo /> */}
+                                    </span>
+                                </h1>
+                                <p className="hero-description mb-5">
+                                    Vi skaper skreddersydde AI-løsninger som transformerer hvordan bedrifter opererer. 
+                                    Fra automatisering til dataanalyse - vi gjør kunstig intelligens tilgjengelig, 
+                                    praktisk og lønnsom for din virksomhet.
+                                </p>
+                                
+                                {/* Feature Pills */}
+                                <div className="feature-pills mb-5">
+                                    <div className="feature-pill">
+                                        <i className="bi bi-lightning-charge-fill text-warning"></i>
+                                        <span>24/7 Automatisering</span>
+                                    </div>
+                                    <div className="feature-pill">
+                                        <i className="bi bi-graph-up-arrow text-success"></i>
+                                        <span>Dataanalyse</span>
+                                    </div>
+                                    <div className="feature-pill">
+                                        <i className="bi bi-robot text-primary"></i>
+                                        <span>AI Agents</span>
+                                    </div>
+                                </div>
+
+                                {/* CTA Buttons */}
+                                <div className="hero-cta d-flex flex-wrap gap-3">
+                                    <Link href="/services" className="btn btn-primary btn-lg hover-up">
+                                        <i className="bi bi-play-circle me-2"></i>
+                                        Start din AI-reise
+                                    </Link>
+                                    <Link href="/contact" className="btn btn-outline-primary btn-lg hover-up">
+                                        <i className="bi bi-calendar-check me-2"></i>
+                                        Book gratis konsultasjon
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col-lg-6 mt-lg-0 mt-8">
+                            <div className="hero-visual position-relative">
+                                {/* Central AI Brain */}
+                                <div className="ai-brain-container">
+                                    <div className="ai-brain">
+                                        <div className="brain-core">
+                                            <i className="bi bi-cpu-fill text-white fs-1"></i>
+                                            <div className="brain-pulse"></div>
+                                        </div>
+                                        <div className="brain-particles">
+                                            <div className="particle particle-1"></div>
+                                            <div className="particle particle-2"></div>
+                                            <div className="particle particle-3"></div>
+                                            <div className="particle particle-4"></div>
+                                            <div className="particle particle-5"></div>
+                                            <div className="particle particle-6"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Service Orbits */}
+                                <div className="service-orbits">
+                                    <div className="orbit orbit-1">
+                                        <div className="service-node node-ai">
+                                            <i className="bi bi-robot"></i>
+                                            <span className="node-label">AI-rådgivning</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="orbit orbit-2">
+                                        <div className="service-node node-data">
+                                            <i className="bi bi-graph-up"></i>
+                                            <span className="node-label">Dataanalyse</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="orbit orbit-3">
+                                        <div className="service-node node-agents">
+                                            <i className="bi bi-gear-wide-connected"></i>
+                                            <span className="node-label">AI Agents</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Floating Stats */}
+                                <div className="floating-stats">
+                                    <div className="stat-card stat-1">
+                                        <div className="stat-icon">
+                                            <i className="bi bi-speedometer2 text-success"></i>
+                                        </div>
+                                        <div className="stat-content">
+                                            <div className="stat-number">300%</div>
+                                            <div className="stat-label">Effektivitet</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="stat-card stat-2">
+                                        <div className="stat-icon">
+                                            <i className="bi bi-shield-check text-primary"></i>
+                                        </div>
+                                        <div className="stat-content">
+                                            <div className="stat-number">99.9%</div>
+                                            <div className="stat-label">Oppetid</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="stat-card stat-3">
+                                        <div className="stat-icon">
+                                            <i className="bi bi-people-fill text-warning"></i>
+                                        </div>
+                                        <div className="stat-content">
+                                            <div className="stat-number">500+</div>
+                                            <div className="stat-label">Kunder</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="info-group position-absolute top-50 start-0 translate-middle-y d-none d-md-block">
-                    <div className="d-flex align-items-center justify-content-center gap-4 rotate-90">
-                        <Link href="#" className="fs-7 text-white">
-                            ah2xx@hotmail.com
-                        </Link>
-                        <Link href="telto:004799858236" className="fs-7 text-white">
-                            004799858236
-                        </Link>
+
+                {/* Background Elements */}
+                <div className="hero-bg-elements">
+                    <div className="bg-grid"></div>
+                    <div className="bg-gradients">
+                        <div className="gradient-orb orb-1"></div>
+                        <div className="gradient-orb orb-2"></div>
+                        <div className="gradient-orb orb-3"></div>
                     </div>
-                </div>
-                <div className="socials-group position-absolute top-50 end-0 translate-middle-y d-none d-md-block z-2">
-                    <div className="socials rotate-90 px-3 py-2 rounded-pill d-inline-flex d-flex align-items-center justify-content-center">
-                        <p className="text-white mb-0">Følg oss:</p>
-                        <ul className="list-unstyled d-flex mb-0">
-                            <li className="ms-3">
-                                <Link href="#">
-                                    <span className="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                            <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
-                                        </svg>
-                                    </span>
-                                </Link>
-                            </li>
-                            <li className="ms-3">
-                                <Link href="#">
-                                    <span className="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-                                        </svg>
-                                    </span>
-                                </Link>
-                            </li>
-                            <li className="ms-3">
-                                <Link href="#">
-                                    <span className="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                            <path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
-                                        </svg>
-                                    </span>
-                                </Link>
-                            </li>
-                            <li className="ms-3">
-                                <Link href="#">
-                                    <span className="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                            <path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
-                                        </svg>
-                                    </span>
-                                </Link>
-                            </li>
-                        </ul>
+                    <div className="floating-shapes">
+                        <div className="shape shape-1"></div>
+                        <div className="shape shape-2"></div>
+                        <div className="shape shape-3"></div>
+                        <div className="shape shape-4"></div>
                     </div>
                 </div>
             </section>
+
+            <style jsx>{`
+                .modern-ai-hero {
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+                    background-size: 200% 200%;
+                    animation: gradientShift 8s ease-in-out infinite;
+                }
+                
+                .hero-content {
+                    position: relative;
+                    z-index: 2;
+                }
+                
+                .hero-badge {
+                    background: rgba(255, 255, 255, 0.15);
+                    color: white;
+                    padding: 12px 20px;
+                    border-radius: 50px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    display: inline-flex;
+                    align-items: center;
+                    animation: floatBadge 3s ease-in-out infinite;
+                }
+                
+                .hero-title {
+                    font-size: 3.5rem;
+                    font-weight: 800;
+                    line-height: 1.1;
+                    color: white;
+                    margin-bottom: 1.5rem;
+                }
+                
+                .text-gradient {
+                    background: linear-gradient(45deg, #fff, #a8edea, #fed6e3);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    animation: textShimmer 3s ease-in-out infinite;
+                }
+                
+                .hero-description {
+                    font-size: 1.2rem;
+                    color: rgba(255, 255, 255, 0.85);
+                    line-height: 1.6;
+                }
+                
+                .feature-pills {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                }
+                
+                .feature-pill {
+                    background: rgba(255, 255, 255, 0.1);
+                    color: white;
+                    padding: 10px 16px;
+                    border-radius: 25px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    transition: all 0.3s ease;
+                }
+                
+                .feature-pill:hover {
+                    background: rgba(255, 255, 255, 0.2);
+                    transform: translateY(-2px);
+                }
+                
+                .hero-visual {
+                    position: relative;
+                    height: 600px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .ai-brain-container {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 3;
+                }
+                
+                .ai-brain {
+                    position: relative;
+                    width: 120px;
+                    height: 120px;
+                }
+                
+                .brain-core {
+                    width: 120px;
+                    height: 120px;
+                    background: linear-gradient(135deg, #667eea, #764ba2);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    box-shadow: 0 0 50px rgba(102, 126, 234, 0.5);
+                    animation: brainFloat 4s ease-in-out infinite;
+                }
+                
+                .brain-pulse {
+                    position: absolute;
+                    width: 140px;
+                    height: 140px;
+                    border: 2px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 50%;
+                    top: -10px;
+                    left: -10px;
+                    animation: pulse 2s infinite;
+                }
+                
+                .brain-particles {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .particle {
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    background: white;
+                    border-radius: 50%;
+                    animation: particleFloat 3s ease-in-out infinite;
+                }
+                
+                .particle-1 { top: 20%; left: -10px; animation-delay: 0s; }
+                .particle-2 { top: 50%; right: -10px; animation-delay: 0.5s; }
+                .particle-3 { bottom: 20%; left: 20px; animation-delay: 1s; }
+                .particle-4 { top: 10%; right: 20px; animation-delay: 1.5s; }
+                .particle-5 { bottom: 10%; right: -5px; animation-delay: 2s; }
+                .particle-6 { top: 60%; left: -5px; animation-delay: 2.5s; }
+                
+                .service-orbits {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 400px;
+                    height: 400px;
+                }
+                
+                .orbit {
+                    position: absolute;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    border-radius: 50%;
+                    animation: orbitRotate 20s linear infinite;
+                }
+                
+                .orbit-1 {
+                    width: 200px;
+                    height: 200px;
+                    top: 100px;
+                    left: 100px;
+                    animation-duration: 15s;
+                }
+                
+                .orbit-2 {
+                    width: 280px;
+                    height: 280px;
+                    top: 60px;
+                    left: 60px;
+                    animation-duration: 20s;
+                    animation-direction: reverse;
+                }
+                
+                .orbit-3 {
+                    width: 360px;
+                    height: 360px;
+                    top: 20px;
+                    left: 20px;
+                    animation-duration: 25s;
+                }
+                
+                .service-node {
+                    position: absolute;
+                    width: 60px;
+                    height: 60px;
+                    background: rgba(255, 255, 255, 0.95);
+                    border-radius: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1.2rem;
+                    color: #667eea;
+                    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                }
+                
+                .service-node:hover {
+                    transform: scale(1.1);
+                    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+                }
+                
+                .node-label {
+                    position: absolute;
+                    bottom: -25px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: rgba(255, 255, 255, 0.9);
+                    color: #333;
+                    padding: 4px 8px;
+                    border-radius: 10px;
+                    font-size: 10px;
+                    font-weight: 600;
+                    white-space: nowrap;
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                }
+                
+                .service-node:hover .node-label {
+                    opacity: 1;
+                }
+                
+                .node-ai { top: -30px; left: 50%; transform: translateX(-50%); }
+                .node-data { top: 50%; right: -30px; transform: translateY(-50%); }
+                .node-agents { bottom: -30px; left: 50%; transform: translateX(-50%); }
+                
+                .floating-stats {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .stat-card {
+                    position: absolute;
+                    background: rgba(255, 255, 255, 0.95);
+                    padding: 15px;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+                    animation: statFloat 4s ease-in-out infinite;
+                    min-width: 120px;
+                }
+                
+                .stat-icon {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1.2rem;
+                    background: rgba(102, 126, 234, 0.1);
+                }
+                
+                .stat-number {
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: #333;
+                }
+                
+                .stat-label {
+                    font-size: 0.85rem;
+                    color: #666;
+                }
+                
+                .stat-1 {
+                    top: 10%;
+                    right: 5%;
+                    animation-delay: 0s;
+                }
+                
+                .stat-2 {
+                    top: 50%;
+                    left: -5%;
+                    animation-delay: 1.5s;
+                }
+                
+                .stat-3 {
+                    bottom: 15%;
+                    right: 10%;
+                    animation-delay: 3s;
+                }
+                
+                .hero-bg-elements {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    z-index: 0;
+                }
+                
+                .bg-grid {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-image: 
+                        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+                    background-size: 50px 50px;
+                    animation: gridMove 20s linear infinite;
+                }
+                
+                .gradient-orb {
+                    position: absolute;
+                    border-radius: 50%;
+                    filter: blur(40px);
+                    animation: orbFloat 8s ease-in-out infinite;
+                }
+                
+                .orb-1 {
+                    width: 200px;
+                    height: 200px;
+                    background: rgba(168, 237, 234, 0.3);
+                    top: 10%;
+                    right: 10%;
+                    animation-delay: 0s;
+                }
+                
+                .orb-2 {
+                    width: 150px;
+                    height: 150px;
+                    background: rgba(254, 214, 227, 0.3);
+                    bottom: 20%;
+                    left: 15%;
+                    animation-delay: 2s;
+                }
+                
+                .orb-3 {
+                    width: 180px;
+                    height: 180px;
+                    background: rgba(102, 126, 234, 0.2);
+                    top: 50%;
+                    right: 30%;
+                    animation-delay: 4s;
+                }
+                
+                .floating-shapes {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .shape {
+                    position: absolute;
+                    background: rgba(255, 255, 255, 0.1);
+                    animation: shapeFloat 10s ease-in-out infinite;
+                }
+                
+                .shape-1 {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    top: 20%;
+                    left: 10%;
+                    animation-delay: 0s;
+                }
+                
+                .shape-2 {
+                    width: 15px;
+                    height: 15px;
+                    transform: rotate(45deg);
+                    top: 60%;
+                    right: 20%;
+                    animation-delay: 2s;
+                }
+                
+                .shape-3 {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 30%;
+                    bottom: 30%;
+                    left: 20%;
+                    animation-delay: 4s;
+                }
+                
+                .shape-4 {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;
+                    top: 30%;
+                    right: 40%;
+                    animation-delay: 6s;
+                }
+                
+                @keyframes gradientShift {
+                    0%, 100% { background-position: 0% 50%; }
+                    50% { background-position: 100% 50%; }
+                }
+                
+                @keyframes floatBadge {
+                    0%, 100% { transform: translateY(0px); }
+                    50% { transform: translateY(-5px); }
+                }
+                
+                @keyframes textShimmer {
+                    0%, 100% { background-position: 0% 50%; }
+                    50% { background-position: 100% 50%; }
+                }
+                
+                @keyframes brainFloat {
+                    0%, 100% { transform: translateY(0px) rotate(0deg); }
+                    50% { transform: translateY(-10px) rotate(5deg); }
+                }
+                
+                @keyframes pulse {
+                    0% { transform: scale(1); opacity: 1; }
+                    100% { transform: scale(1.2); opacity: 0; }
+                }
+                
+                @keyframes particleFloat {
+                    0%, 100% { 
+                        transform: translateY(0px); 
+                        opacity: 0.3; 
+                    }
+                    50% { 
+                        transform: translateY(-20px); 
+                        opacity: 1; 
+                    }
+                }
+                
+                @keyframes orbitRotate {
+                    from { transform: rotate(0deg); }
+                    to { transform: rotate(360deg); }
+                }
+                
+                @keyframes statFloat {
+                    0%, 100% { transform: translateY(0px); }
+                    50% { transform: translateY(-10px); }
+                }
+                
+                @keyframes gridMove {
+                    0% { transform: translate(0, 0); }
+                    100% { transform: translate(50px, 50px); }
+                }
+                
+                @keyframes orbFloat {
+                    0%, 100% { transform: translateY(0px) scale(1); }
+                    50% { transform: translateY(-30px) scale(1.1); }
+                }
+                
+                @keyframes shapeFloat {
+                    0%, 100% { 
+                        transform: translateY(0px) rotate(0deg);
+                        opacity: 0.3;
+                    }
+                    50% { 
+                        transform: translateY(-30px) rotate(180deg);
+                        opacity: 0.8;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .hero-title {
+                        font-size: 2.5rem;
+                    }
+                    
+                    .hero-visual {
+                        height: 400px;
+                    }
+                    
+                    .ai-brain {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    
+                    .brain-core {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    
+                    .service-orbits {
+                        width: 250px;
+                        height: 250px;
+                    }
+                    
+                    .orbit-1 {
+                        width: 150px;
+                        height: 150px;
+                        top: 50px;
+                        left: 50px;
+                    }
+                    
+                    .orbit-2 {
+                        width: 200px;
+                        height: 200px;
+                        top: 25px;
+                        left: 25px;
+                    }
+                    
+                    .orbit-3 {
+                        width: 250px;
+                        height: 250px;
+                        top: 0;
+                        left: 0;
+                    }
+                    
+                    .service-node {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 1rem;
+                    }
+                    
+                    .stat-card {
+                        padding: 10px;
+                        min-width: 100px;
+                    }
+                    
+                    .stat-number {
+                        font-size: 1rem;
+                    }
+                    
+                    .feature-pills {
+                        justify-content: center;
+                    }
+                    
+                    .hero-cta {
+                        justify-content: center;
+                    }
+                }
+            `}</style>
         </>
     );
 }

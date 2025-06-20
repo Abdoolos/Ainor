@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Model Development Flow</title>
+    <link href="/assets/css/vendors/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: var(--bs-dark);
+            font-family: var(--tc-body-font-family, 'Rubik'), sans-serif;
+            color: var(--bs-light);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .flow-container {
+            max-width: 1400px;
+            margin: 60px auto;
+            padding: 30px;
+        }
+
+        .flow-step {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 60px;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .flow-step img {
+            width: 350px;
+            height: 350px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px var(--bs-primary);
+            transition: transform 0.3s ease;
+        }
+
+        .flow-step img:hover {
+            transform: scale(1.08);
+        }
+
+        .flow-text {
+            color: var(--bs-light);
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .flow-text h3 {
+            color: var(--bs-primary);
+            margin-bottom: 1rem;
+            font-family: var(--tc-heading-font-family, 'Libre Franklin'), sans-serif;
+            font-weight: 600;
+        }
+
+        .flow-text p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            opacity: 0.95;
+            letter-spacing: 0.02em;
+        }
+
+        .flow-text ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .flow-text li {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            opacity: 0.95;
+            letter-spacing: 0.02em;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .flow-text li:last-child {
+            margin-bottom: 0;
+        }
+
+        .flow-text li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--bs-primary);
+        }
+
+        .flow-text strong {
+            color: var(--bs-primary);
+            font-weight: 600;
+        }
+
+        .arrow {
+            width: 0;
+            height: 0;
+            margin: 40px auto;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 45px solid var(--bs-primary);
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                filter: drop-shadow(0 0 2px var(--bs-primary));
+            }
+            to {
+                filter: drop-shadow(0 0 10px var(--bs-primary));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flow-container">
+        <div class="flow-step">
+            <img src="/assets/imgs/pages/ai-solutions/Tjeneste Detaljer/a1.png" alt="Step 1">
+            <div class="flow-text">
+                <h3>🚀 Launching "NorAb Data Agents"</h3>
+                <p>My do-it-all analytics companion built entirely from open-source AI agents! Over the past few months I went from spreadsheet chaos to an autonomous pipeline.</p>
+                <p>Mapped the problem → interviewed stakeholders and listed the 42 metrics that really matter.</p>
+            </div>
+        </div>
+
+        <div class="arrow"></div>
+
+        <div class="flow-step">
+            <img src="/assets/imgs/pages/ai-solutions/Tjeneste Detaljer/a2.png" alt="Step 2">
+            <div class="flow-text">
+                <h3>Chained Specialised Agents</h3>
+                <ul class="mb-0 ps-4">
+                    <li>Autonomous task executor kicks off daily jobs</li>
+                    <li>Planner/runner breaks big goals into bite-sized tasks</li>
+                    <li>Orchestrator picks the right tools on the fly</li>
+                    <li>Collaborator swarm keeps every agent in sync</li>
+                    <li>Multi-workflow hub automates complex pipelines</li>
+                    <li>Retriever serves business answers in natural language</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="arrow"></div>
+
+        <div class="flow-step">
+            <img src="/assets/imgs/pages/ai-solutions/Tjeneste Detaljer/a3.png" alt="Step 3">
+            <div class="flow-text">
+                <h3>Built Cloud-Native & Impact</h3>
+                <p>Built cloud-native (Python + AWS) with Auto-layout components from Figma → one design system, zero re-work. CI/CD in 8 minutes — GitHub push spins up updated lambdas.</p>
+                <p class="mb-0"><strong>Impact:</strong> Reports that used to take two days now refresh in 10 minutes, saving ≈ €35k/yr and letting the team ask "what if?" questions on the spot.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

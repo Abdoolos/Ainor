@@ -26,38 +26,63 @@ export default function Section1() {
                     <div className="row g-4">
                         <div className="col-lg-6">
                             <div>
-                                <img data-aos="flip-left" src="assets/imgs/pages/ai-solutions/page-services-details/img-1.png" alt="AstraX" />
-                                <h6 className="mt-5 mb-4 text-anime-style-2">Tilpasset ML-modellutvikling</h6>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <p className="text-anime-style-1">
-                                            <span className="text-dark fw-bold">Skreddersydde Algoritmer:</span> Bygg modeller spesifikke for dine forretningsbehov—prediktiv analyse, NLP, datasyn eller anbefalingsmotorer.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p className="text-anime-style-1">
-                                            <span className="text-dark fw-bold">Ende-til-ende Støtte:</span> Fra dataforbehandling til implementering håndterer vi hver fase av ML-livssyklusen.
-                                        </p>
-                                    </li>
-                                </ul>
+                                <a href="/assets/flow-diagram.html" target="_blank" rel="noopener noreferrer" className="d-inline-block hover-scale">
+                                    <img data-aos="flip-left" src="assets/imgs/pages/ai-solutions/Tjeneste Detaljer/a3.png" alt="NorAb Data Agents" style={{ transition: "transform 0.3s ease" }} />
+                                </a>
+                                <a href="/assets/flow-diagram.html" target="_blank" rel="noopener noreferrer" className="d-block mt-5 mb-4 text-decoration-none">
+                                    <h6 className="text-anime-style-2">Launching "NorAb Data Agents"</h6>
+                                </a>
+                                <div className="text-anime-style-1">
+                                    <p> My do-it-all analytics companion built entirely from open-source AI agents!</p>
+                                    <p>Over the past few months I went from spreadsheet chaos to an autonomous pipeline that discovers, cleans, models and visualises our data with almost no manual touch-points. Here's the journey in a nutshell:</p>
+                                    <ul className="list-unstyled">
+                                        <li className="mb-3">
+                                            <p className="mb-2">
+                                                <span className="text-dark fw-bold">Initial Analysis:</span> Mapped the problem → interviewed stakeholders and listed the 42 metrics that really matter.
+                                            </p>
+                                        </li>
+                                        <li className="mb-3">
+                                            <p className="mb-2">
+                                                <span className="text-dark fw-bold">AI Integration:</span> Chained specialized agents for autonomous tasks, planning, orchestration, and collaboration.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p className="mb-0">
+                                                <span className="text-dark fw-bold">Impact:</span> Reports that used to take two days now refresh in 10 minutes, saving ≈ €35k/yr.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div>
-                                <img data-aos="flip-left" src="assets/imgs/pages/ai-solutions/page-services-details/img-2.png" alt="AstraX" />
-                                <h6 className="mt-5 mb-4 text-anime-style-2">Ferdigbygde AI-løsninger</h6>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <p className="text-anime-style-1">
-                                            <span className="text-dark fw-bold">Bransjespesifikke Maler:</span> Akseler implementering med klare modeller for helsevesen, detaljhandel, finans og produksjon.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p className="text-anime-style-1">
-                                            <span className="text-dark fw-bold">Plug-and-Play Integrasjon:</span> API-er og no-code verktøy for å integrere ML i eksisterende systemer (f.eks. CRM, ERP).
-                                        </p>
-                                    </li>
-                                </ul>
+                                <Link href="/emotion-analysis" className="d-inline-block hover-scale">
+                                    <img data-aos="flip-left" src="assets/imgs/pages/ai-solutions/Tjeneste Detaljer/Emot2.png" alt="Ainorab Emotion Analysis" style={{ transition: "transform 0.3s ease" }} />
+                                </Link>
+                                <Link href="/emotion-analysis" className="d-block mt-5 mb-4 text-decoration-none">
+                                    <h6 className="text-anime-style-2">Ainorab – Advanced Emotion Analysis Agent</h6>
+                                </Link>
+                                <div className="text-anime-style-1">
+                                    <p>Ainorab is an innovative AI-powered agent designed for comprehensive emotion analysis and psychological insight. Built and developed by our team, this tool utilizes state-of-the-art language models to detect, track, and interpret complex human emotions from text inputs.</p>
+                                    <ul className="list-unstyled">
+                                        <li className="mb-3">
+                                            <p className="mb-2">
+                                                <span className="text-dark fw-bold">Advanced Analysis:</span> Unlike simple sentiment analysis, Ainorab delivers detailed psychological reports and identifies triggers and patterns.
+                                            </p>
+                                        </li>
+                                        <li className="mb-3">
+                                            <p className="mb-2">
+                                                <span className="text-dark fw-bold">Modern Interface:</span> User-friendly interface with emotion timelines, trigger extraction, session histories, and AI-driven suggestions.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p className="mb-0">
+                                                <span className="text-dark fw-bold">Ethical & Secure:</span> Combines accuracy, usability, and ethical data handling for individuals, therapists, and organizations.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

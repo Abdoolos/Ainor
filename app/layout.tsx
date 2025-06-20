@@ -11,8 +11,9 @@ import "/public/assets/fonts/fontawesome/fontawesome.min.css";
 import "/public/assets/fonts/fontawesome/solid.min.css";
 import "/public/assets/fonts/fontawesome/regular.min.css";
 import "/public/assets/css/main.css";
-
+import "/public/assets/css/ai-flow.css";
 import "/public/assets/css/style.css";
+import "/public/assets/css/emotion-animations.css";
 
 import type { Metadata } from "next";
 import { Libre_Franklin, Rubik } from "next/font/google";
@@ -34,6 +35,25 @@ const rubik = Rubik({
 export const metadata: Metadata = {
     title: "Ainorab AI Solutions - Advanced Artificial Intelligence Services",
     description: "Ainorab AI Solutions - Providing cutting-edge artificial intelligence services and solutions",
+    icons: {
+        icon: [
+            {
+                url: '/assets/imgs/template/favicon.png',
+                sizes: '32x32',
+                type: 'image/png',
+            },
+            {
+                url: '/assets/imgs/template/favicon.png',
+                sizes: '16x16',
+                type: 'image/png',
+            }
+        ],
+        apple: {
+            url: '/assets/imgs/template/favicon.png',
+            sizes: '180x180',
+            type: 'image/png',
+        },
+    },
 };
 
 export default function RootLayout({

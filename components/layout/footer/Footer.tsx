@@ -101,7 +101,7 @@ export default function Footer() {
                                 <p className="m-0 text-center">
                                     Opphavsrett &amp; design av
                                     <Link href="/contact" className=" ">
-                                        <span className="text-white fw-medium">abdoolos</span>
+                                        <span className="text-white fw-medium">Abdullah Alawiss</span>
                                     </Link>
                                     2024, Alle rettigheter forbeholdt
                                 </p>

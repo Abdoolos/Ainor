@@ -44,28 +44,21 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 		!isMobileMenu ? document.body.classList.add("mobile-menu-active") : document.body.classList.remove("mobile-menu-active");
 	}
 
-	useEffect(() => {
-		AOS.init()
-		const WOW: any = require('wowjs');
-		(window as any).wow = new WOW.WOW({
-			live: false
-		});
+useEffect(() => {
+AOS.init()
+const handleScroll = (): void => {
+const scrollCheck: boolean = window.scrollY > 100
+if (scrollCheck !== scroll) {
+setScroll(scrollCheck)
+}
+}
 
-		// Initialize WOW.js
-		(window as any).wow.init()
-		const handleScroll = (): void => {
-			const scrollCheck: boolean = window.scrollY > 100
-			if (scrollCheck !== scroll) {
-				setScroll(scrollCheck)
-			}
-		}
+document.addEventListener("scroll", handleScroll)
 
-		document.addEventListener("scroll", handleScroll)
-
-		return () => {
-			document.removeEventListener("scroll", handleScroll)
-		}
-	}, [scroll])
+return () => {
+document.removeEventListener("scroll", handleScroll)
+}
+}, [scroll])
 
 	DataBg()
 	useTextAnimation2()
@@ -75,20 +68,20 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	useCircleText()
 	useOdometerCounter()
 	useParallaxEffect()
-	return (
-		<>
-			<div id="top" />
-			<BootstrapComponents />
-			<Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
+return (
+<>
+<div id="top" />
+<BootstrapComponents />
+<Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
 
-			<main>
-				{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
-				{children}
-			</main>
+<main>
+{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
+{children}
+</main>
 
-			< Footer />
+< Footer />
 
-			<BackToTop />
-		</>
-	)
+<BackToTop />
+</>
+)
 }
