@@ -10,35 +10,35 @@ export default function Section2() {
                         <div className="col-lg-5">
                             <div className="d-flex align-items-center gap-3">
                                 <span className="small-line bg-white" />
-                                <span className="btn-text text-white">Our amazing skills</span>
+                                <span className="btn-text text-white">Våre fantastiske ferdigheter</span>
                             </div>
                             <h2 className="text-white my-3 text-anime-style-3">
-                                Our aim is to drive rapid progress in <span className="text-linear">AI development.</span>
+                                Vårt mål er å drive rask fremgang innen <span className="text-linear">AI-utvikling.</span>
                             </h2>
                             <div className="position-relative py-5 overflow-hidden">
                                 <div className="progress position-relative overflow-visible" role="progressbar" aria-label="Basic example" aria-valuenow={95} aria-valuemin={0} aria-valuemax={95}>
                                     <div className="progress-bar rounded-pill wow img-custom-anim-left" style={{ width: "95%" }} />
                                 </div>
-                                <span className="position-absolute top-0 start-0 mb-2 fs-7 text-white">Work experience</span>
+                                <span className="position-absolute top-0 start-0 mb-2 fs-7 text-white">Arbeidserfaring</span>
                                 <span className="text-linear position-absolute top-0 end-0 mt-2 fs-7">95%</span>
                             </div>
                             <div className="position-relative py-5 overflow-hidden">
                                 <div className="progress position-relative overflow-visible" role="progressbar" aria-label="Basic example" aria-valuenow={78} aria-valuemin={0} aria-valuemax={78}>
                                     <div className="progress-bar rounded-pill wow img-custom-anim-left" style={{ width: "78%" }} />
                                 </div>
-                                <span className="position-absolute top-0 start-0 mb-2 fs-7 text-white">Core solutions</span>
+                                <span className="position-absolute top-0 start-0 mb-2 fs-7 text-white">Kjerneløsninger</span>
                                 <span className="text-linear position-absolute top-0 end-0 mt-2 fs-7">78%</span>
                             </div>
                             <div className="position-relative py-5 overflow-hidden">
                                 <div className="progress position-relative overflow-visible" role="progressbar" aria-label="Basic example" aria-valuenow={92} aria-valuemin={0} aria-valuemax={92}>
                                     <div className="progress-bar rounded-pill wow img-custom-anim-left" style={{ width: "92%" }} />
                                 </div>
-                                <span className="position-absolute top-0 start-0 mb-2 fs-7 text-white">Skilled &amp; Capable</span>
+                                <span className="position-absolute top-0 start-0 mb-2 fs-7 text-white">Dyktig &amp; Kompetent</span>
                                 <span className="text-linear position-absolute top-0 end-0 mt-2 fs-7">92%</span>
                             </div>
                             <div className="d-flex align-items-center gap-3 mt-7">
                                 <span className="small-line bg-white" />
-                                <span className="btn-text text-white">Our partners</span>
+                                <span className="btn-text text-white">Våre partnere</span>
                             </div>
                             <div className="bg-white bg-opacity-10 d-flex flex-wrap align-items-center justify-content-md-between justify-content-center gap-5 mt-5 px-5 py-4 wow img-custom-anim-left">
                                 <Link href="#">

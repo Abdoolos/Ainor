@@ -14,6 +14,8 @@ import "/public/assets/css/main.css";
 import "/public/assets/css/ai-flow.css";
 import "/public/assets/css/style.css";
 import "/public/assets/css/emotion-animations.css";
+import "/public/assets/css/mobile-menu-fix.css";
+import "/public/assets/css/contact-page.css";
 
 import type { Metadata } from "next";
 import { Libre_Franklin, Rubik } from "next/font/google";
@@ -63,7 +65,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${LibreFranklinHeading.variable} ${rubik.variable}`}>{children}</body>
+            <body className={`${LibreFranklinHeading.variable} ${rubik.variable}`}>
+                {children}
+                <script src="/assets/js/mobile-menu-fix.js" defer></script>
+            </body>
         </html>
     );
 }

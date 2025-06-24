@@ -4,31 +4,31 @@ import CarouselTicker from "@/components/elements/CarouselTicker";
 import Link from "next/link";
 
 const slidesContent = [
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="neura-edge" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-1.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">NeuraEdge</h5>
     </Link>,
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="aether-ai" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-2.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">AetherAI</h5>
     </Link>,
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="intellecta" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-3.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">Intellecta</h5>
     </Link>,
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="cognify-ai" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-4.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">CognifyAI</h5>
     </Link>,
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="synth-mind" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-5.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">SynthMind</h5>
     </Link>,
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="inno-aive" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-6.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">InnoAIve</h5>
     </Link>,
-    <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
+    <Link key="intellecta-2" href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-3.svg" alt="AstraX" />
         <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">Intellecta</h5>
     </Link>,

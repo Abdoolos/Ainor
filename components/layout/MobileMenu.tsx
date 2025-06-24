@@ -22,7 +22,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
         if (isMobileMenu) {
             handleMobileMenu();
         }
-    }, [pathname]);
+    }, [pathname, isMobileMenu, handleMobileMenu]);
 
     return (
         <>
@@ -64,12 +64,12 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                         <li>
                                             <Link href="/about">Om Oss</Link>
                                         </li>
-                                        <li className="has-children">
+                                        <li className={`has-children ${isAccordion === 1 ? 'open' : ''}`}>
+                                            <Link href="#">Tjenester</Link>
                                             <span className="menu-expand" onClick={() => handleAccordion(1)}>
                                                 <i className="arrow-small-down" />
                                             </span>
-                                            <Link href="#">Tjenester</Link>
-                                            <ul className="sub-menu" style={{ display: `${isAccordion == 1 ? "block" : "none"}` }}>
+                                            <ul className="sub-menu" style={{ display: `${isAccordion === 1 ? "block" : "none"}` }}>
                                                 <li>
                                                     <Link href="/services">Tjenester</Link>
                                                 </li>
@@ -78,12 +78,12 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="has-children">
+                                        <li className={`has-children ${isAccordion === 2 ? 'open' : ''}`}>
                                             <Link href="#">Blogg</Link>
                                             <span className="menu-expand" onClick={() => handleAccordion(2)}>
                                                 <i className="arrow-small-down" />
                                             </span>
-                                            <ul className="sub-menu" style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}>
+                                            <ul className="sub-menu" style={{ display: `${isAccordion === 2 ? "block" : "none"}` }}>
                                                 <li>
                                                     <Link href="/blog">Blogg</Link>
                                                 </li>
@@ -107,10 +107,10 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         <div className="contact-info">
                             <ul className="list-wrap">
                                 <li>
-                                    <span className="opacity-50">E-post:</span> <Link href="/mailto:info@ainorab.com">info@ainorab.com</Link>
+                                    <span className="opacity-50">E-post:</span> <Link href="mailto:ah2xx@hotmail.com">ah2xx@hotmail.com</Link>
                                 </li>
                                 <li>
-                                    <span className="opacity-50">Telefon:</span> <Link href="/tel:0123456789">+123 888 9999</Link>
+                                    <span className="opacity-50">Telefon:</span> <Link href="tel:99858236">99858236</Link>
                                 </li>
                             </ul>
                         </div>

@@ -6,7 +6,9 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "export": "next build",
+        "deploy": "npm run export && echo Static export completed! Check the out directory for your static files."
     },
     "dependencies": {
         "aos": "^2.3.4",
@@ -17,6 +19,7 @@
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-modal-video": "^2.0.2",
+        "run": "^1.5.0",
         "split-text": "^1.0.0",
         "swiper": "^11.2.5",
         "wowjs": "^1.1.3"
